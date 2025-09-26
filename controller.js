@@ -1,8 +1,10 @@
 function FindEqualNumbers(){
-
+let i= 0;
 while (true){
+
 let num1 = TwoRandomNumbers[Math.floor(Math.random() * TwoRandomNumbers.length )]
 let num2 = TwoRandomNumbers[Math.floor(Math.random() * TwoRandomNumbers.length )]
+
 i++
     
     if(num1 === num2){
