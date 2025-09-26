@@ -3,7 +3,7 @@
 function UpdateView(){
     let HTML = document.getElementById("app").innerHTML = /*HTML*/ `
     <p id="isTheNumbersEqulal"></p>
-    <button onclick="RandomNumbersAreEqual()">Klikk</button>
+    <button onclick="FindEqualNumbers()">kjør while loop</button>
     
     
     
@@ -16,7 +16,6 @@ function UpdateView(){
     
     
     `
-document.getElementById('isTheNumbersEqulal').innerHTML;
 }
 
  UpdateView()

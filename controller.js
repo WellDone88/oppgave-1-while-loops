@@ -1,16 +1,14 @@
+function FindEqualNumbers(){
 
-
-while (i <= 100){
-  console.log(i);
-   i++;
-}
-
-function RandomNumbersAreEqual(){
-    let num1 = TwoRandomNumbers[Math.floor(Math.random() * TwoRandomNumbers.length + 1)]
-    let num2 = TwoRandomNumbers[Math.floor(Math.random() * TwoRandomNumbers.length + 1)]
-
-    if(num1 == num2)
-        document.getElementById("isTheNumbersEqulal").innerHTML += num1 +'<br>' + num2 + '<br>';
-    console.log(num1, num2)
+while (true){
+let num1 = TwoRandomNumbers[Math.floor(Math.random() * TwoRandomNumbers.length )]
+let num2 = TwoRandomNumbers[Math.floor(Math.random() * TwoRandomNumbers.length )]
+i++
     
+    if(num1 === num2){
+    document.getElementById("isTheNumbersEqulal").innerHTML += 'Like tall :' + '<br>' + `${num1}` + '<br>' + `${num2}` + '<br>';
+    break;
+        }
+    
+    }
 }
