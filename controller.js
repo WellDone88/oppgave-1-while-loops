@@ -9,7 +9,7 @@ i++
     
     if(num1 === num2){
     document.getElementById("isTheNumbersEqulal").innerHTML += 'Like tall :' + '<br>' + `${num1}` + '<br>' + `${num2}` + '<br>';
-    break;
+    break; // stopper den. 
         }
     
     }
